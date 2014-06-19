@@ -1,7 +1,22 @@
 /* jQuery Countdown styles 2.0.0. */
+body {
+    background-color: #000;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
 .is-countdown {
-	border: 1px solid #ccc;
+	text-align: center;
+    border: 1px solid #ccc;
 	background-color: #eee;
+}
+#defaultCountdown {
+    margin-left: auto;
+    margin-right: auto;
 }
 .countdown-rtl {
 	direction: rtl;
